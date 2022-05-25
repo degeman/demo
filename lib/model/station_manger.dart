@@ -6,5 +6,6 @@ import 'package:myfl/service/stations_service.dart';
 
 class StationManager extends ChangeNotifier {
   List<Station>? stations = StationsService().getStations();
-  bool isUpdating;
+  bool _create = false;
+  bool _update = false;
 }
