@@ -10,4 +10,8 @@ public class DerashApplication {
 		SpringApplication.run(DerashApplication.class, args);
 	}
 
+	public String  getsomthin(){
+		return "something";
+	}
+
 }
